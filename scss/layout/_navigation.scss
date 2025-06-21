@@ -1,0 +1,78 @@
+@use "../abstracts/vars" as vars;
+@use "../abstracts/media-queries" as mq;
+
+//about section
+.about-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: vars.$clr-main;
+    height: 60vh;
+}
+
+.about-title{
+    text-align: center;
+    color: vars.$clr-white;
+    margin: vars.$fs-md;
+}
+
+.about-text{
+    margin: vars.$fs-md;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    font-family: vars.$ff-secondary;
+}
+
+//design section
+.design-section{
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    background-color: vars.$clr-terciary;
+    height: 60vh;
+}
+
+.design-title{
+    padding: vars.$fs-md;
+    text-align: center;
+    color: vars.$clr-white;
+    margin: vars.$fs-md;
+}
+
+.palette-container{
+    padding: vars.$fs-sm;
+    padding-top: vars.$fs-xmd;
+    height: 25vh;
+    background-color: vars.$clr-white;
+
+}
+
+
+//character section
+.characters-section{
+    display: flex;
+    flex-direction: column;
+    background-color: vars.$clr-secondary;
+}
+
+.characters-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.characters-title{
+    text-align: center;
+    margin: vars.$fs-md;
+}
+
+//gameplay section
+.gameplay-section{
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    background-color: vars.$clr-quaternary;
+    height: 60vh;
+}

@@ -1,0 +1,9 @@
+@use "../abstracts/vars" as vars;
+@use "../abstracts/media-queries" as mq;
+
+
+.h2 {
+    font-size: vars.$fs-md;
+    font-weight: vars.$fw-bold;
+    color: vars.$clr-white;
+}

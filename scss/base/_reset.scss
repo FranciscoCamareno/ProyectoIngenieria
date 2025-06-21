@@ -1,0 +1,11 @@
+@use "../abstracts/vars" as vars;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: vars.$ff-main;
+    color: vars.$clr-white;
+}

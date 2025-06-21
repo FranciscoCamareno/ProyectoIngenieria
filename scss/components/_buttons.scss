@@ -1,0 +1,20 @@
+@use "../abstracts/vars" as vars;
+
+.start-btn {
+    background-color: vars.$clr-main; 
+    border: none;
+    border-radius: 15px;
+    color: vars.$clr-white;           
+    font-family: vars.$ff-main;       
+    font-size: vars.$fs-sm;           
+    z-index: 2;                       
+    padding: 20px 20px;
+    margin-top: 20px;
+    cursor: pointer;    
+    transition: 0.4s;                /* Asegura que el cursor cambie al pasar sobre el botón */
+}
+
+.start-btn:hover {
+    background-color: vars.$clr-main;  /* Cambia este color al hover, define --clr-hover */
+    transform: scale(1.5);              /* Le da un efecto de agrandamiento al hover */
+}

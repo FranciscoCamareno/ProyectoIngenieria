@@ -1,0 +1,61 @@
+*{margin:0;padding:0}body{font-family:"Press Start 2P",sans-serif,Arial;color:#fcfcfc}.h2{font-size:1.563rem;font-weight:700;color:#fcfcfc}.header{top:0;left:0;right:0;height:3.375rem;padding:1.25rem;display:flex;position:fixed;justify-content:space-between;align-items:center;justify-content:center;z-index:4}.nav{display:flex;background-color:rgba(44,197,246,.7);border-radius:1.25rem;padding:1.25rem;backdrop-filter:blur(5px);z-index:4}.nav-list{display:flex;gap:1rem}.nav-list-item{font-size:1.25rem;font-weight:400;list-style:none;list-style-type:none}.nav-list-link,a{color:#fcfcfc;text-decoration:none}.nav-list-link:hover{color:#1d1b1b}.about-section{display:flex;flex-direction:column;align-items:center;background-color:#2cc5f6;height:60vh}.about-title{text-align:center;color:#fcfcfc;margin:1.563rem}.about-text{margin:1.563rem;justify-content:center;align-items:center;width:70%;font-family:"Poppins",sans-serif,Arial}.design-section{display:flex;align-content:space-between;flex-direction:column;background-color:#36d96f;height:60vh}.design-title{padding:1.563rem;text-align:center;color:#fcfcfc;margin:1.563rem}.palette-container{padding:1.25rem;padding-top:2rem;height:25vh;background-color:#fcfcfc}.characters-section{display:flex;flex-direction:column;background-color:#f2a81d}.characters-cards{display:flex;flex-direction:row;justify-content:center;align-items:center}.characters-title{text-align:center;margin:1.563rem}.gameplay-section{display:flex;align-content:space-between;flex-direction:column;background-color:#d93a2b;height:60vh}.title-section{position:relative;display:flex;justify-content:center;align-items:center;flex-direction:column;height:100vh;text-align:center}.title-section .title-img{position:absolute;width:100%;height:100%;object-fit:cover;z-index:1}.main-title{font-size:3rem;color:#1d1b1b;z-index:2}.character-img{width:100px}.flip-card{background-color:rgba(0,0,0,0);width:190px;height:254px;perspective:1000px;font-family:"Poppins",sans-serif,Arial;margin:3rem}.title{font-size:1em;font-weight:700;text-align:center;margin:0}.flip-card-inner{position:relative;width:100%;height:100%;text-align:center;transition:transform .8s;transform-style:preserve-3d}.flip-card:hover .flip-card-inner{transform:rotateY(180deg)}.flip-card-front,.flip-card-back{box-shadow:0 8px 14px 0 rgba(0,0,0,.2);position:absolute;display:flex;flex-direction:column;justify-content:center;width:100%;height:100%;-webkit-backface-visibility:hidden;backface-visibility:hidden;border:1px solid #2cc5f6;border-radius:1rem}.flip-card-front{background:linear-gradient(120deg, #fcfcfc 60%, #fcfcfc 88%, #fcfcfc 40%, #2CC5F6 48%);color:#1d1b1b}.flip-card-back{background:linear-gradient(120deg, #fcfcfc 60%, #fcfcfc 88%, #fcfcfc 40%, #2CC5F6 48%);color:#1d1b1b;transform:rotateY(180deg)}.palette{display:flex;height:86%;width:100%}.color{height:100%;flex:1;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600;letter-spacing:1px;transition:flex .1s linear}.color span{opacity:0;transition:opacity .1s linear}.color:nth-child(1){background:#2cc5f6}.color:nth-child(2){background:#36d96f}.color:nth-child(3){background:#f2a81d}.color:nth-child(4){background:#bf755a}.color:nth-child(5){background:#d93a2b}.color:hover{flex:2;box-shadow:rgba(100,100,111,.2) 0px 7px 29px 0px}.color:hover span{opacity:1}.start-btn{background-color:#2cc5f6;border:none;border-radius:15px;color:#fcfcfc;font-family:"Press Start 2P",sans-serif,Arial;font-size:1.25rem;z-index:2;padding:20px 20px;margin-top:20px;cursor:pointer;transition:.4s}.start-btn:hover{background-color:#2cc5f6;transform:scale(1.5)}/*# sourceMappingURL=main.css.map */
+
+/* === Perfil styles === */
+.perfil-main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #2cc5f6 60%, #36d96f 100%);
+}
+.perfil-section {
+  background: #fcfcfc;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(44,197,246,0.25);
+  padding: 2.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.perfil-title {
+  font-family: 'Press Start 2P', sans-serif, Arial;
+  color: #2cc5f6;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.perfil-options {
+  display: flex;
+  gap: 2rem;
+}
+.perfil-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif, Arial;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fcfcfc;
+  background: #2cc5f6;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 16px 0 rgba(44,197,246,0.15);
+  border: none;
+  cursor: pointer;
+}
+.perfil-btn:hover {
+  background: #36d96f;
+  transform: scale(1.08);
+}
+.perfil-register {
+  background: #36d96f;
+}
+.perfil-register:hover {
+  background: #2cc5f6;
+}
+.perfil-login {
+  background: #2cc5f6;
+}
+.perfil-login:hover {
+  background: #36d96f;
+}

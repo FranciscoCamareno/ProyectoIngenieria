@@ -1,0 +1,29 @@
+@use "../abstracts/vars" as vars;
+
+.title-section {
+    position: relative;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    flex-direction: column;  
+    height: 100vh;            
+    text-align: center;      
+}
+
+.title-section .title-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       
+    z-index: 1;              
+}
+
+.main-title {
+    font-size: vars.$fs-xxmd;          
+    color: vars.$clr-black; 
+    z-index: 2;          
+}
+
+.character-img{
+    width: 100px;
+}

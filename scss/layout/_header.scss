@@ -1,0 +1,46 @@
+@use "../abstracts/vars" as vars;
+
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: vars.$fs-lg;
+    padding: vars.$fs-sm;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+
+.nav {
+    display: flex;
+    background-color: transparentize($color: vars.$clr-main, $amount: 0.3);
+    border-radius: vars.$fs-sm;
+    padding: vars.$fs-sm;
+    backdrop-filter: blur(5px);
+    z-index: 4;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list-item {
+    font-size: vars.$fs-sm;
+    font-weight: vars.$fw-regular;
+    list-style: none;
+    list-style-type: none;
+    
+}
+
+.nav-list-link, a {
+    color: vars.$clr-white;
+    text-decoration: none;
+}
+
+.nav-list-link:hover {
+    color: vars.$clr-black;
+}
